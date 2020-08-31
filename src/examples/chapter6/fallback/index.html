@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <user-card></user-card>
+    <script>
+      customElements.define(
+        'user-card',
+        class extends HTMLElement {
+          connectedCallback() {
+            this.attachShadow({ mode: 'open' });
+            this.shadowRoot.innerHTML = `
+          <div>Name:
+            <slot name="username">Not available</slot>
+          </div>
+          <div>Birthday:
+            <slot name="birthday">n/a</slot>
+          </div>
+        `;
+          }
+        }
+      );
+      console.log(document.querySelectorAll('user-card span').length);
+    </script>
+  </body>
+</html>

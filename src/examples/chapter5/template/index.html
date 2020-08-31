@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <template id="tmpl">
+    <script>
+      alert("Hello");
+    </script>
+    <div class="message">Hello, template!</div>
+  </template>
+
+  <script>
+    let elem = document.createElement('div');
+
+    // Clone the template content to reuse it multiple times
+    elem.append(tmpl.content.cloneNode(true));
+
+    document.body.append(elem);
+    // Now the script from <template> runs
+  </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Formatted Undefined</title>
+    <style>
+      :not(:defined) {
+        display: block;
+        width: 150px;
+        border-bottom: 2px dotted red;
+        text-align: center;
+      }
+      :not(:defined):before {
+        content: "unknown element !";
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <time-formatted
+      datetime="2020-04-13"
+      year="numeric"
+      month="long"
+      day="numeric"
+      hour="numeric"
+      minute="numeric"
+      second="numeric"
+      time-zone-name="short"
+    ></time-formatted>
+  </body>
+</html>

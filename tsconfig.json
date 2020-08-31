@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "es2015",
+    "module": "es2015",
+    "lib": ["es5", "ES2018", "dom"],
+    "sourceMap": true,
+    "rootDir": "./src",
+    "strict": true,
+    "jsx": "react",
+    "noImplicitAny": false,
+    "reactNamespace": "JSX",
+    "strictNullChecks": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["./src/**/*"]
+}

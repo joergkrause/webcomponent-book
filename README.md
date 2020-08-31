@@ -1,2 +1,2 @@
-# webcomponent-book
-Support files and demo code for Web Component book 
+# nyaf-homepage
+The homepage code that is not public

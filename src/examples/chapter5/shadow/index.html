@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <template id="tmpl">
+    <style> p { font-weight: bold; } </style>
+    <p id="message"></p>
+  </template>
+
+  <div id="elem">Click me</div>
+
+  <script>
+    elem.onclick = function() {
+      elem.attachShadow({mode: 'open'});
+      elem.shadowRoot.append(tmpl.content.cloneNode(true));
+      elem.shadowRoot.getElementById('message').innerHTML = "Hello Shadow!";
+    };
+  </script>
+</body>
+</html>

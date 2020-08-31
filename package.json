@@ -1,0 +1,23 @@
+{
+  "name": "nyaf-homepage",
+  "version": "1.0.0",
+  "description": "The homepage code that is not public",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joergkrause/nyaf-homepage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joergkrause/nyaf-homepage/issues"
+  },
+  "homepage": "https://github.com/joergkrause/nyaf-homepage#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}

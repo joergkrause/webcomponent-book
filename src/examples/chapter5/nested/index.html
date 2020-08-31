@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <template id="section">
+      <h1>Header</h1>
+      <p>Text</p>
+      <template id="details">
+        <h3>Addition</h3>
+        <p>Details</p>
+      </template>
+    </template>
+    <div id="host"></div>
+    <script>
+      const elem = document.querySelector('#host');
+      const outer = section.content.cloneNode(true);
+      const inner = outer.children.details;
+      outer.removeChild(inner);
+      outer.appendChild(inner.content.cloneNode(true));
+      elem.appendChild(outer);
+    </script>
+  </body>
+</html>

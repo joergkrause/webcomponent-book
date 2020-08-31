@@ -1,0 +1,303 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "signature": "70ae6416528e68c2ee7b62892200d2ca631759943d4429f8b779b947ff1e124d",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "signature": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "affectsGlobalScope": false
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "signature": "9affb0a2ddc57df5b8174c0af96c288d697a262e5bc9ca1f544c999dc64a91e6",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "signature": "63e0cc12d0f77394094bd19e84464f9840af0071e5b9358ced30511efef1d8d2",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "signature": "42f5e41e5893da663dbf0394268f54f1da4b43dc0ddd2ea4bf471fe5361d6faf",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "signature": "0b7a905675e6cb4211c128f0a3aa47d414b275180a299a9aad5d3ec298abbfc4",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "signature": "dfff68b3c34338f6b307a25d4566de15eed7973b0dc5d69f9fde2bcac1c25315",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "signature": "4670208dd7da9d6c774ab1b75c1527a810388c7989c4905de6aaea8561cb9dce",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "d0db416bccdb33975548baf09a42ee8c47eace1aac7907351a000f1e568e7232",
+        "signature": "d0db416bccdb33975548baf09a42ee8c47eace1aac7907351a000f1e568e7232",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+        "version": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "signature": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "signature": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "signature": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "signature": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "affectsGlobalScope": true
+      },
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "signature": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "affectsGlobalScope": true
+      },
+      "./src/examples/chapter2/observed-generic/time.ts": {
+        "version": "1dcf230da3bcf62edd4a15645d73e1b167700d360ca28c56cb1d41fa6f41e74d",
+        "signature": "ad21e8ff2bc9db9d17fa77dd7e398f3bf06669cb5f858822ef2bb85233310b1a",
+        "affectsGlobalScope": true
+      },
+      "./src/examples/chapter6/menuevent/event.ts": {
+        "version": "c21b07b4fd78bc4711543dbc2e63dc24530d5df1a0a036f7da5c09d8ead48e3a",
+        "signature": "bdf61d18dd76593574ca52176e51c2d7285a721570da35b8964f81021f1fb9a7",
+        "affectsGlobalScope": true
+      },
+      "./src/examples/chapter6/menuslotapi/event.ts": {
+        "version": "afe6fb3637e461c75c4699d5dead7b62a1e0cf2d0d4c1790891ea4f2f7a98aaa",
+        "signature": "0e8934d95ac4b9cf5f08c34834a99ed2399d49b6420462e58c8da7dadffccff2",
+        "affectsGlobalScope": true
+      },
+      "./src/examples/chapter6/menuupdate/event.ts": {
+        "version": "514ca02e89e4273d0cd9842d240ec5253bab45beec9082a915d3efa685793b89",
+        "signature": "04a40719fca97f1e1ef0dab1433471cc910de86af38eb4f9c56ba55d57e4a0e0",
+        "affectsGlobalScope": true
+      },
+      "./src/examples/chapter8/router/all.component.ts": {
+        "version": "5ccc1c086b3fdfd9942455166bed41a962e1cba60dc9ff023d37ef2f3bbb45e4",
+        "signature": "537ac852f943ce08b566bfd6e6e92b29a4dac4aa93a7ddd31150aa3c4795e6da",
+        "affectsGlobalScope": false
+      },
+      "./src/examples/chapter8/store/observer.ts": {
+        "version": "75d45ad2a0280900784fda175a2036e7fcd2117cc4d132042be655fff6ad15d9",
+        "signature": "e82c0eda6dbecc8b4a5dabeb1c7fc8e7bfd46d97d9255abb045531246487c0df",
+        "affectsGlobalScope": false
+      },
+      "./src/examples/chapter8/store/store.ts": {
+        "version": "ef13d134c57c4b130dca2d8ccde596353f234243ee9e854c69cd3664cfe250cb",
+        "signature": "34cac1a21acba72992149f46ee92a93e74a999b2ccf237b8d25a0ac377af3a2b",
+        "affectsGlobalScope": false
+      },
+      "./src/examples/chapter8/store/component.ts": {
+        "version": "f74fb3579f1c356b78abd82ceec4fab3137e637c9f42c543a8e6f976d41ac92e",
+        "signature": "038deb1e63fdf8254ee8ee8c4924685ad1fc99cc94e9fc84baeabfd380c8c3a9",
+        "affectsGlobalScope": false
+      },
+      "./src/examples/chapter9/binding/component.ts": {
+        "version": "8d61585c4a890d81ebf69aeba2aef8d274ad63a5e4e34a81328bcf3a283051b3",
+        "signature": "cb25badc599cf03ccbf42a7d6fe6e699e206f435f8712951ccef83f5c39b6eba",
+        "affectsGlobalScope": true
+      },
+      "./src/examples/chapter9/directive/component.ts": {
+        "version": "22cd3ec317f29186c5b734d5b67bedc8bdce57b5b6797f58b43fa90fe3ea1174",
+        "signature": "664b73effc9ff03603f6892c880129c58b3214f24e25fc4e536567eba3d7c584",
+        "affectsGlobalScope": true
+      },
+      "./src/examples/chapter9/jsx/jsx.ts": {
+        "version": "a1424d0643a95e8d7e2d93199611682c48a41edc80f25e723951266e752be00c",
+        "signature": "f65c880231dc6d14c1cec4785207692f3de7039f77362657bf7b51279329677f",
+        "affectsGlobalScope": false
+      },
+      "./src/examples/chapter9/jsx/component.tsx": {
+        "version": "af0cfd4f7ada4242cd7472391d3c27d0cdab50fe94f9413e07d521f879354727",
+        "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+        "affectsGlobalScope": false
+      },
+      "./src/examples/chapter9/validation/component.ts": {
+        "version": "c5aea64f6207b8693fa9f8ea7698afce027a9136a941c9b492d9114741d5ccca",
+        "signature": "db905a016d8cbd02511557fc9dfe808ec122cc49f616a63403e4fc536b71ee83",
+        "affectsGlobalScope": true
+      }
+    },
+    "options": {
+      "incremental": true,
+      "target": 2,
+      "module": 5,
+      "lib": [
+        "lib.es5.d.ts",
+        "lib.es2018.d.ts",
+        "lib.dom.d.ts"
+      ],
+      "sourceMap": true,
+      "rootDir": "./src",
+      "strict": true,
+      "jsx": 2,
+      "noImplicitAny": true,
+      "reactNamespace": "JSX",
+      "strictNullChecks": false,
+      "moduleResolution": 2,
+      "esModuleInterop": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {
+      "./src/examples/chapter8/store/component.ts": [
+        "./src/examples/chapter8/store/store.ts"
+      ],
+      "./src/examples/chapter8/store/store.ts": [
+        "./src/examples/chapter8/store/observer.ts"
+      ],
+      "./src/examples/chapter9/jsx/component.tsx": [
+        "./src/examples/chapter9/jsx/jsx.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "./src/examples/chapter8/store/store.ts": [
+        "./src/examples/chapter8/store/observer.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "./src/examples/chapter2/observed-generic/time.ts",
+      "./src/examples/chapter6/menuevent/event.ts",
+      "./src/examples/chapter6/menuslotapi/event.ts",
+      "./src/examples/chapter6/menuupdate/event.ts",
+      "./src/examples/chapter8/router/all.component.ts",
+      "./src/examples/chapter8/store/component.ts",
+      "./src/examples/chapter8/store/observer.ts",
+      "./src/examples/chapter8/store/store.ts",
+      "./src/examples/chapter9/binding/component.ts",
+      "./src/examples/chapter9/directive/component.ts",
+      [
+        "./src/examples/chapter9/jsx/component.tsx",
+        [
+          {
+            "file": "./src/examples/chapter9/jsx/component.tsx",
+            "start": 161,
+            "length": 5,
+            "messageText": "JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.",
+            "category": 1,
+            "code": 7026
+          },
+          {
+            "file": "./src/examples/chapter9/jsx/component.tsx",
+            "start": 173,
+            "length": 6,
+            "messageText": "JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.",
+            "category": 1,
+            "code": 7026
+          }
+        ]
+      ],
+      "./src/examples/chapter9/jsx/jsx.ts",
+      "./src/examples/chapter9/validation/component.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2016.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "../../../../../../../usr/local/lib/node_modules/typescript/lib/lib.es5.d.ts"
+    ]
+  },
+  "version": "3.9.7"
+}

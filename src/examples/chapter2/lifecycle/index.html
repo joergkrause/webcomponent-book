@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="component.js"></script>
+  </head>
+  <body>
+    <outer-element>
+      Static Text Before
+      <inner-element></inner-element>
+      Static Text After
+      <content-done />
+    </outer-element>
+    <script>
+      const el = document.currentScript.previousElementSibling;
+      customElements.whenDefined('inner-element').then(() => el.enhance());
+    </script>
+  </body>
+</html>

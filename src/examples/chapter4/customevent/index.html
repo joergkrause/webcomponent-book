@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="outer"></div>
+
+    <script>
+      outer.attachShadow({ mode: 'open' });
+
+      let inner = document.createElement('div');
+      outer.shadowRoot.append(inner);
+      document.addEventListener('test', (event) => alert(event.detail));
+
+      inner.dispatchEvent(
+        new CustomEvent('test', {
+          bubbles: true,
+          composed: true,
+          detail: 'composed',
+        })
+      );
+
+      inner.dispatchEvent(
+        new CustomEvent('test', {
+          bubbles: true,
+          composed: false,
+          detail: 'not composed',
+        })
+      );
+    </script>
+  </body>
+</html>

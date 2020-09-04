@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Events</title>
+  </head>
+  <body>
+    <button data-on-click="clickId">OK</button>
+    <script>
+      document.querySelectorAll('[^data-on-]').forEach((elem) => {
+        const events = elem.dataSet.filter((d) => d.startsWidth('on'));
+        events.forEach((event) => {
+          elem.addEventHandler(event, (e) => {
+            // global handler
+            const instruction = e.target.dataSet(event);
+            // deal with it
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

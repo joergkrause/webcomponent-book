@@ -6,6 +6,8 @@ class BindableComponent extends HTMLElement {
 
   model: Record<string, any>;
 
+  c: CustomEvent;
+
   constructor() {
     super();
     this.model = new Proxy(new InputViewModel(), {

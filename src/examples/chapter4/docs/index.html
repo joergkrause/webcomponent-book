@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button data-form-id="subscribe-mail" data-action-id="submit">
+    Show Mail Form
+  </button>
+
+  <form id="subscribe-mail" hidden>
+    Your mail: <input type="email">
+  </form>
+
+  <script>
+    document.addEventListener('click', function(event) {
+      let id = event.target.dataset.formId;
+      if (!id) return;
+      let elem = document.getElementById(id);
+      elem.hidden = !elem.hidden;
+      let action = event.target.dataset.actionId;
+      if (action) {
+        // add logic to submit the form
+      }
+    });
+  </script>
+</body>
+</html>

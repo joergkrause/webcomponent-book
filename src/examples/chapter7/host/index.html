@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <template id="tmpl">
+    <style>
+      /* the style will be applied from inside to the custom-dialog element */
+      :host {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: inline-block;
+        border: 1px solid red;
+        padding: 10px;
+      }
+    </style>
+    <slot></slot>
+  </template>
+
+  <script>
+  customElements.define('custom-dialog', class extends HTMLElement {
+    connectedCallback() {
+      this.attachShadow({mode: 'open'}).append(tmpl.content.cloneNode(true));
+    }
+  });
+  </script>
+
+  <custom-dialog>
+    Hello!
+  </custom-dialog>
+</body>
+</html>

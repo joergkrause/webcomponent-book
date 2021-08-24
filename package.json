@@ -4,7 +4,8 @@
   "description": "The homepage code that is not public",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "start": "http-server"
   },
   "repository": {
     "type": "git",

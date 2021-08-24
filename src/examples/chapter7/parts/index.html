@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-</head>
-<body>
-  
+  <style>
+    app-tabs::part(tab) {
+      color: #0c0dcc;
+      border-bottom: transparent solid 2px;
+    }
+
+    app-tabs::part(tab):hover {
+      background-color: silver;
+      border-color: #0a84ff;
+    }
+
+    app-tabs::part(active) {
+      color: #0060df;
+      border-color: #0a84ff !important;
+    }
+  </style>
+  </head>
+
+  <body>
+
+  <template id="tabtemplate">
+    <style type="text/css">
+      *,
+      ::before,
+      ::after {
+        box-sizing: border-box;
+        padding: 1rem;
+      }
+
+      :host {
+        display: flex;
+      }
+    </style>
+    <div part="tab active">Tab 1</div>
+    <div part="tab">Tab 2</div>
+    <div part="tab">Tab 3</div>
+  </template>
+
+  <app-tabs></app-tabs>
+
+  <script>
+    let template = document.querySelector("#tabtemplate");
+    customElements.define("app-tabs", class extends HTMLElement {
+      constructor() {
+        super();
+        this.attachShadow({ mode: "open" });
+        this.shadowRoot.appendChild(template.content);
+        this.shadowRoot.querySelectorAll('[part]').forEach(part => {
+          part.addEventListener('click', e =>  {
+            this.shadowRoot.querySelectorAll('[part]')
+              .forEach(e => e.part.remove('active'));
+            e.target.part.add('active');
+          });
+        });
+      }
+    });
+  </script>
+
 </body>
+
+
 </html>
